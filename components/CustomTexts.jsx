@@ -13,7 +13,6 @@ export const TypingText = ({ title, textStyles }) => (
         {letter === ' ' ? '\u00A0' : letter}
       </motion.span>
     ))}
-    ;
   </motion.p>
 );
 

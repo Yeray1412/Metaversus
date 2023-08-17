@@ -24,7 +24,7 @@ const InsightCard = ({ imgUrl, index, title, subtitle }) => (
       </div>
       <div className="lg:flex hidden w-[100px] h-[100px] border-solid rounded-full border-[#F5F5F5] border justify-center items-center ">
         <img
-          src="/arrow.svg"
+          src="https://yeray1412.github.io/Metaversus/arrow.svg"
           alt="arrow"
           className="w-[35%] h-[35%] object-contain"
         />
