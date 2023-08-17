@@ -1,4 +1,4 @@
-import styles from "../styles";
+import styles from '../styles';
 
 const NewFeatures = ({ subtitle, imgUrl, title }) => (
   <div className="flex flex-col flex-1 sm:max-w-[250px] min-w-[250px]">

@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
-import { footerVariants } from "../utils/motion";
-import styles from "../styles";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
+import { footerVariants } from '../utils/motion';
+import styles from '../styles';
 
 const Footer = () => (
   <motion.footer
@@ -18,7 +18,10 @@ const Footer = () => (
         <h2 className="font-bold md:text-[64px] text-[44px] text-white">
           Enter the Metaverse
         </h2>
-        <button className="flex items-center h-fit py-4 px-6 rounded-[32px] gap-[12px] bg-[#25618b]">
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 rounded-[32px] gap-[12px] bg-[#25618b]"
+        >
           <img
             src="/headset.svg"
             alt="headset"
@@ -37,16 +40,14 @@ const Footer = () => (
             Copyright © 2021 - 2022 Metaversus. All rights reserved.
           </p>
           <div className="flex gap-4 items-center">
-            {socials.map((social, index) => {
-              return (
-                <img
-                  src={social.url}
-                  key={social.name}
-                  alt={social.name}
-                  className="w-[24px] h-[24px] cursor-pointer object-contain"
-                />
-              );
-            })}
+            {socials.map((social) => (
+              <img
+                src={social.url}
+                key={social.name}
+                alt={social.name}
+                className="w-[24px] h-[24px] cursor-pointer object-contain"
+              />
+            ))}
           </div>
         </div>
       </div>
