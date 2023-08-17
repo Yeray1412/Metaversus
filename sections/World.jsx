@@ -37,24 +37,24 @@ const World = () => (
       whileInView="show"
       className="relative mt-[68px] flex max-w-[1170px] mx-auto"
     >
-      <img src="/map.png" alt="map" className="object-cover w-full h-full" />
+      <img src="https://yeray1412.github.io/Metaversus/map.png" alt="map" className="object-cover w-full h-full" />
       <motion.div
         variants={peopleFadeIn}
         className={`absolute w-[70px] h-[70px] rounded-full bg-[#5d6680] p-[6px] before-tri z-10 bottom-[25%] right-[10%]`}
       >
-        <img src="/people-01.png" alt="people" />
+        <img src="https://yeray1412.github.io/Metaversus/people-01.png" alt="people" />
       </motion.div>
       <motion.div
         variants={peopleFadeIn}
         className={`absolute w-[70px] h-[70px] rounded-full bg-[#5d6680] p-[6px] before-tri z-10 left-[12%] top-[0%]`}
       >
-        <img src="/people-02.png" alt="people" />
+        <img src="https://yeray1412.github.io/Metaversus/people-02.png" alt="people" />
       </motion.div>
       <motion.div
         variants={peopleFadeIn}
         className={`absolute w-[70px] h-[70px] rounded-full bg-[#5d6680] p-[6px] before-tri z-10 bottom-[40%] right-[48%]`}
       >
-        <img src="/people-03.png" alt="people" />
+        <img src="https://yeray1412.github.io/Metaversus/people-03.png" alt="people" />
       </motion.div>
       <motion.div
         variants={peopleFadeIn}
@@ -64,24 +64,24 @@ const World = () => (
           className={`w-[215px] h-[165px] ${styles.flexCenter} rounded-[24px] bg-[#5d6680] p-[10px]`}
         >
           <img
-            src="Mask Group.png"
+            src="https://yeray1412.github.io/Metaversus/MaskGroup.png"
             alt="mask"
             className="absolute object-contain"
           />
           <div className="p-[20px] absolute bottom-0">
             <div className={`${styles.flexCenter}`}>
               <img
-                src="/people-04.png"
+                src="https://yeray1412.github.io/Metaversus/people-04.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[-12px] z-[2]"
               />
               <img
-                src="/people-05.png"
+                src="https://yeray1412.github.io/Metaversus/people-05.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[-12px] z-[1]"
               />
               <img
-                src="/people-06.png"
+                src="https://yeray1412.github.io/Metaversus/people-06.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[8px] z-0"
               />
@@ -101,24 +101,24 @@ const World = () => (
           className={`w-[200px] h-[155px] ${styles.flexCenter} rounded-[32px] bg-[#5d6680] p-[10px]`}
         >
           <img
-            src="Mask Group (1).png"
+            src="https://yeray1412.github.io/Metaversus/MaskGroup(1).png"
             alt="mask"
             className="absolute object-contain"
           />
           <div className="p-[20px] absolute bottom-0">
             <div className={`${styles.flexCenter}`}>
               <img
-                src="/people-04.png"
+                src="https://yeray1412.github.io/Metaversus/people-04.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[-12px] z-[2]"
               />
               <img
-                src="/people-05.png"
+                src="https://yeray1412.github.io/Metaversus/people-05.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[-12px] z-[1]"
               />
               <img
-                src="/people-06.png"
+                src="https://yeray1412.github.io/Metaversus/people-06.png"
                 alt="people"
                 className="w-[24px] h-[24px] mr-[8px] z-0"
               />

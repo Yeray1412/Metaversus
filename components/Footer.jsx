@@ -23,7 +23,7 @@ const Footer = () => (
           className="flex items-center h-fit py-4 px-6 rounded-[32px] gap-[12px] bg-[#25618b]"
         >
           <img
-            src="/headset.svg"
+            src="https://yeray1412.github.io/Metaversus/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />

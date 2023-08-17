@@ -38,7 +38,7 @@ const Feedback = () => (
         className="flex flex-1 justify-center items-start relative"
       >
         <img
-          src="/planet-09.png"
+          src="https://yeray1412.github.io/Metaversus/planet-09.png"
           alt="planet"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[32px]"
         />
@@ -46,7 +46,7 @@ const Feedback = () => (
           variants={zoomIn(0.4, 1)}
           className="absolute -left-[10%] top-[10%] lg:block hidden"
         >
-          <img src="/stamp.png" alt="stamp" className="w-[155px] h-[155px]" />
+          <img src="https://yeray1412.github.io/Metaversus/stamp.png" alt="stamp" className="w-[155px] h-[155px]" />
         </motion.div>
       </motion.div>
     </motion.div>
